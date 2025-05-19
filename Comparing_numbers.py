@@ -1,5 +1,5 @@
 #Code to find the largest number
-max=int(input("Enter maximum numbers to compare: "))
+'''max=int(input("Enter maximum numbers to compare: "))
 l=list()
 for i in range (max):
     n=int(input("Enter a number: "))
@@ -8,9 +8,9 @@ a=l[0]
 for i in l:
     if a<i:
         a=i
-print ("Largest Number is: ",a)
+print ("Largest Number is: ",a)'''
 
-#Code to count maximum number of even integers
+#Code to count the maximum number of even integers
 max=int(input("Enter maximum numbers to compare: "))
 l=list()
 for i in range (max):
