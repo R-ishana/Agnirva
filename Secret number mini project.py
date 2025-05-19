@@ -6,7 +6,7 @@ def is_valid_number(value):
 # Function for the game logic
 def play_game():
     # Choosing Difficulty Level
-    print('Welcome to the number guessing game! Please choose the difficulty level you wish to play: \n 1. Easy (1-10)\n 2. Medium (1-50)\n 3. Hard (1-100)')
+    print('Welcome to the number guessing game! Please choose the difficulty level you wish to play: \n 1. Easy (1-10 number range)\n 2. Medium (1-50 number range)\n 3. Hard (1-100 number range)')
     level=int(input("Enter your choice: "))
     if level==1:
         secret_number=random.randint(1, 10)
@@ -19,7 +19,7 @@ def play_game():
         return
 
     # Choosing whether the user wants restricted attempts
-    print("I have chosen a number! Do you wish to have restricted attempts? \n 1. Yes (Easy-5, Medium-10, Hard-15) \n 2. No")
+    print("I have chosen a number! Do you wish to have restricted attempts? \n 1. Yes (Easy-5 Attempts, Medium-10 Attempts, Hard-15 Attempts) \n 2. No")
     level2=int(input("Enter your choice: "))
 
     # Unlimited Attempts
